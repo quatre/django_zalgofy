@@ -1,5 +1,4 @@
 import logging
-from slurp import signals
 
 def inject_app_defaults(application):
     """Inject an application's default settings"""
