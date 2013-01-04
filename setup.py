@@ -5,21 +5,16 @@ setup(
     version='0.1',
     description='This middleware make your pages look like they were Zalgofied.',
     long_description=open('README.rst').read(),
-    # Get more strings from http://www.python.org/pypi?:action=list_classifiers
     author='Guillaume Espanel',
     author_email='guillaume@lolnet.org',
     url='https://github.com/quatre/django_zalgofy',
-    download_url='https://github.com/quatre/django_zalgofy/downloads',
+    download_url='https://github.com/quatre/django_zalgofy',
     license='BSD',
     packages=find_packages(exclude=('tests', 'example')),
-#    tests_require=[
-#        'django>=1.3,<1.5',
-#    ],
-#    test_suite='runtests.runtests',
     include_package_data=True,
-    zip_safe=True,  # because we're including media that Django needs
+    zip_safe=True,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
